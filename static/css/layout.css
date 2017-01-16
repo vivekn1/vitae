@@ -72,6 +72,18 @@ section > h1 {
     text-transform: uppercase;
 }
 
+section > h2 {
+    font-size: 120%;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+section > h3 {
+    font-size: 100%;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
 article {
     margin-bottom: 20px;
 }
