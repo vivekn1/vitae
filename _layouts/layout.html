@@ -25,8 +25,14 @@
 <body>
 <div class="container">
     <header class="three columns">
-        <img src="{{ site.baseurl }}static/img/profile.png" class="me">
+        <img src="{{ site.baseurl }}static/img/profile.JPG" class="me">
         <h1>{{ site.name }}</h1>
+        <p>
+            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
+            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
+            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
+        </p>
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
         </p>
@@ -38,14 +44,6 @@
                 {{ site.country }}
             </a>
         </address>
-        <p>
-            <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
-        </p>
-        <p>
-            <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
-            <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
-        </p>
     </header>
     <div class="thirteen columns clearfix">
 
