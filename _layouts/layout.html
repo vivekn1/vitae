@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="container">
-    <header class="four columns">
+    <header class="five columns">
         <img src="{{ site.baseurl }}static/img/profile.JPG" class="me">
         <h1>{{ site.name }}</h1>
         <p>
@@ -35,16 +35,7 @@
         </p>
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
-        </p>
-        <address>
-            <a href="{{ site.google_maps }}">
-                {{ site.address }}<br/>
-                {{ site.postcode }}<br/>
-                {{ site.city }}<br/>
-                {{ site.country }}
-            </a>
-        </address>
-	
+        </p>	
 	{% include skills.html %}
 
     </header>
