@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="container">
-    <header class="five columns">
+    <header class="five columns clearfix">
         <img src="{{ site.baseurl }}static/img/profile.JPG" class="me">
         <h1>{{ site.name }}</h1>
         <p>
@@ -36,6 +36,9 @@
         <p>
             <a href="{{ site.tel_full }}">{{ site.tel }}</a>
         </p>
+
+    {% include skills.html %}
+
     </header>
     <div class="twelve columns clearfix">
 
