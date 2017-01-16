@@ -10,7 +10,10 @@ body {
 }
 
 .container {
-    margin: 2% 15% 2% 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
