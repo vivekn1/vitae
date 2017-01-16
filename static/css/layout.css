@@ -55,7 +55,7 @@ header > h1 {
 }
 
 .container > header p, .container > header address {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .container > header p:last-child {
