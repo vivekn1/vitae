@@ -11,24 +11,24 @@ url: http://vivekn1.github.io/vitae
 author: Vivek Narsaria
 
 # edit this section with your information
-# biomadeira.github.io - all contents run on /vitae/
+# vivekn1.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 baseurl: /vitae/
 title: Vivek Narsaria's Resume
 name: Vivek Narsaria
 email: vnarsaria01@gmail.com
 email_full: mailto:vnarsaria01@gmail.com
-website: github.io/
+website: vivekn1.github.io/
 website_full: https://vivekn1.github.io/
-github: trending
-twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
-address: 44 Perth Street
-postcode: EH3 5BL
-city: Edinburgh
-country: United Kingdom
+#github: trending
+#twitter: twitter
+#tel: +44 0000 000000
+#tel_full: tel:+440000000000
+#google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+#address: 44 Perth Street
+#postcode: EH3 5BL
+#city: Edinburgh
+#country: United Kingdom
 google_analytics: UA-69300817-1
 
 # needed for travis-ci build
